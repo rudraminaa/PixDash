@@ -9,7 +9,7 @@ PixDash focuses on:
 
 ---
 
-## 🚀 What Does PixDash Do?
+## What Does PixDash Do?
 
 PixDash is a classic 2D platformer where the player:
 
@@ -20,7 +20,7 @@ PixDash is a classic 2D platformer where the player:
 
 ---
 
-## 🧷 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -30,7 +30,7 @@ PixDash is a classic 2D platformer where the player:
 
 ---
 
-### 🔧 Setup Instructions
+### Setup Instructions
 
 1. **Fork** this repository
 2. **Clone** your fork locally
@@ -52,7 +52,7 @@ PixDash is a classic 2D platformer where the player:
 
 ---
 
-## 📁 Unity Folder Structure
+## Unity Folder Structure
 
 All PixDash content lives inside `_Project`:
 
@@ -85,7 +85,7 @@ Assets/
 
 ---
 
-## 🧩 How Issues Work
+## How Issues Work
 
 Each GitHub issue:
 
@@ -98,7 +98,7 @@ Each GitHub issue:
 
 ---
 
-## 🤝 How to Contribute
+## How to Contribute
 
 1. Pick an open issue
 2. Comment on the issue to claim it
@@ -110,7 +110,7 @@ Each GitHub issue:
 
 ---
 
-## 📢 Communication
+## Communication
 
 If you are:
 
@@ -119,11 +119,11 @@ If you are:
 * Unsure about a task
 
 Ask questions on the **Discord channel**.
-We are happy to help 😊
+We are happy to help 
 
 ---
 
-## 🏁 Project Goal
+## Project Goal
 
 By the end of PixDash, contributors will have:
 
