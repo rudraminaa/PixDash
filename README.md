@@ -39,12 +39,12 @@ PixDash is a classic 2D platformer where the player:
 5. Select the cloned `PixDash` folder
 6. Open the project
 
-> ⚠️ Do **NOT** create a new Unity project.
+> Do **NOT** create a new Unity project.
 > You must open the cloned repository directly.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Game Engine:** Unity (2D)
 * **Language:** C#
