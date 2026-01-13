@@ -3,9 +3,8 @@ using UnityEngine;
 
 public class SpringScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public Animator anim;
-
+    public float jumpforce=20;
     void Start()
     {
         anim=GetComponent<Animator>();
@@ -18,6 +17,15 @@ public class SpringScript : MonoBehaviour
         {
             anim.SetBool("OnSpring",true);
         }
+        Rigidbody2D rb = collision.collider.GetComponent<Rigidbody2D>();
+    if (collision.contacts[0].normal.y<-0.5f&&rb.linearVelocity.y <= 0f)
+    {
+        if (rb != null)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+            rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
+        }
+    }
     }
 
         private void OnCollisionExit2D(Collision2D collision)
@@ -26,9 +34,9 @@ public class SpringScript : MonoBehaviour
         {
             anim.SetBool("OnSpring",false);
         }
+
     }
 
-    // Update is called once per frame
     void Update()
     {
         
